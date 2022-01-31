@@ -2477,7 +2477,7 @@ Zm && Ym({
         return "string" == typeof u ? ip(u, /[\uD800-\uDFFF]/g, tp) : u
     }
 });
-var lp = "https://".concat(window.location.hostname).concat("/event");
+// var lp = "https://".concat(window.location.hostname).concat("/event");
 function cp(a) {
     return mp.apply(this, arguments)
 }
@@ -8523,7 +8523,7 @@ function Rj() {
                     e = Ig.curRow,
                     i = Ig.won ? e + 1 : "X",
                     r = Ng() ? " *" : "",
-                    s = ["joguei ".concat(window.location.hostname).concat(" #").concat(Ig.curday, " ").concat(i, "/6").concat(r), ""],
+                    s = ["joguei ".concat(window.location.href).concat(" #").concat(Ig.curday, " ").concat(i, "/6").concat(r), ""],
                     t = u(Ig.tries);
                     try {
                         for (t.s(); !(n = t.n()).done; ) {
